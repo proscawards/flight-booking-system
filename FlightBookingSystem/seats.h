@@ -1,0 +1,214 @@
+#ifndef SEATS_H
+#define SEATS_H
+
+#include <QMainWindow>
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+#include "mainmenu.h"
+#include "ui_mainmenu.h"
+
+namespace Ui {
+class Seats;
+}
+
+class Seats : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    explicit Seats(QWidget *parent = nullptr);
+    QString seatselected, seatclass, username, accid, gatenum, timeselected, departure, arrival, distance, ticketprice, flightstatus, flightnum, date, time;
+    ~Seats();
+
+private slots:
+    void currentsession();
+    void datafromprev();
+    void on_confirm_btn_clicked();
+    void on_A30_clicked();
+    void on_A29_clicked();
+    void on_A28_clicked();
+    void on_A27_clicked();
+    void on_A26_clicked();
+    void on_A25_clicked();
+    void on_A24_clicked();
+    void on_A23_clicked();
+    void on_A22_clicked();
+    void on_A21_clicked();
+    void on_A20_clicked();
+    void on_A19_clicked();
+    void on_A18_clicked();
+    void on_A17_clicked();
+    void on_A16_clicked();
+    void on_A15_clicked();
+    void on_A14_clicked();
+    void on_A13_clicked();
+    void on_A12_clicked();
+    void on_A11_clicked();
+    void on_A10_clicked();
+    void on_A09_clicked();
+    void on_A08_clicked();
+    void on_A07_clicked();
+    void on_A06_clicked();
+    void on_A05_clicked();
+    void on_A04_clicked();
+    void on_A03_clicked();
+    void on_A02_clicked();
+    void on_A01_clicked();
+    void on_B30_clicked();
+    void on_B29_clicked();
+    void on_B28_clicked();
+    void on_B27_clicked();
+    void on_B26_clicked();
+    void on_B25_clicked();
+    void on_B24_clicked();
+    void on_B23_clicked();
+    void on_B22_clicked();
+    void on_B21_clicked();
+    void on_B20_clicked();
+    void on_B19_clicked();
+    void on_B18_clicked();
+    void on_B17_clicked();
+    void on_B16_clicked();
+    void on_B15_clicked();
+    void on_B14_clicked();
+    void on_B13_clicked();
+    void on_B12_clicked();
+    void on_B11_clicked();
+    void on_B10_clicked();
+    void on_B09_clicked();
+    void on_B08_clicked();
+    void on_B07_clicked();
+    void on_B06_clicked();
+    void on_B05_clicked();
+    void on_B04_clicked();
+    void on_B03_clicked();
+    void on_B02_clicked();
+    void on_B01_clicked();
+    void on_C30_clicked();
+    void on_C29_clicked();
+    void on_C28_clicked();
+    void on_C27_clicked();
+    void on_C26_clicked();
+    void on_C25_clicked();
+    void on_C24_clicked();
+    void on_C23_clicked();
+    void on_C22_clicked();
+    void on_C21_clicked();
+    void on_C20_clicked();
+    void on_C19_clicked();
+    void on_C18_clicked();
+    void on_C17_clicked();
+    void on_C16_clicked();
+    void on_C15_clicked();
+    void on_C14_clicked();
+    void on_C13_clicked();
+    void on_C12_clicked();
+    void on_C11_clicked();
+    void on_C10_clicked();
+    void on_C09_clicked();
+    void on_C08_clicked();
+    void on_C07_clicked();
+    void on_C06_clicked();
+    void on_C05_clicked();
+    void on_C04_clicked();
+    void on_C03_clicked();
+    void on_C02_clicked();
+    void on_C01_clicked();
+    void on_D30_clicked();
+    void on_D29_clicked();
+    void on_D28_clicked();
+    void on_D27_clicked();
+    void on_D26_clicked();
+    void on_D25_clicked();
+    void on_D24_clicked();
+    void on_D23_clicked();
+    void on_D22_clicked();
+    void on_D21_clicked();
+    void on_D20_clicked();
+    void on_D19_clicked();
+    void on_D18_clicked();
+    void on_D17_clicked();
+    void on_D16_clicked();
+    void on_D15_clicked();
+    void on_D14_clicked();
+    void on_D13_clicked();
+    void on_D12_clicked();
+    void on_D11_clicked();
+    void on_D10_clicked();
+    void on_D09_clicked();
+    void on_D08_clicked();
+    void on_D07_clicked();
+    void on_D06_clicked();
+    void on_D05_clicked();
+    void on_D04_clicked();
+    void on_D03_clicked();
+    void on_D02_clicked();
+    void on_D01_clicked();
+    void on_E30_clicked();
+    void on_E29_clicked();
+    void on_E28_clicked();
+    void on_E27_clicked();
+    void on_E26_clicked();
+    void on_E25_clicked();
+    void on_E24_clicked();
+    void on_E23_clicked();
+    void on_E22_clicked();
+    void on_E21_clicked();
+    void on_E20_clicked();
+    void on_E19_clicked();
+    void on_E18_clicked();
+    void on_E17_clicked();
+    void on_E16_clicked();
+    void on_E15_clicked();
+    void on_E14_clicked();
+    void on_E13_clicked();
+    void on_E12_clicked();
+    void on_E11_clicked();
+    void on_E10_clicked();
+    void on_E09_clicked();
+    void on_E08_clicked();
+    void on_E07_clicked();
+    void on_E06_clicked();
+    void on_E05_clicked();
+    void on_E04_clicked();
+    void on_E03_clicked();
+    void on_E02_clicked();
+    void on_E01_clicked();
+    void on_F30_clicked();
+    void on_F29_clicked();
+    void on_F28_clicked();
+    void on_F27_clicked();
+    void on_F26_clicked();
+    void on_F25_clicked();
+    void on_F24_clicked();
+    void on_F23_clicked();
+    void on_F22_clicked();
+    void on_F21_clicked();
+    void on_F20_clicked();
+    void on_F19_clicked();
+    void on_F18_clicked();
+    void on_F17_clicked();
+    void on_F16_clicked();
+    void on_F15_clicked();
+    void on_F14_clicked();
+    void on_F13_clicked();
+    void on_F12_clicked();
+    void on_F11_clicked();
+    void on_F10_clicked();
+    void on_F09_clicked();
+    void on_F08_clicked();
+    void on_F07_clicked();
+    void on_F06_clicked();
+    void on_F05_clicked();
+    void on_F04_clicked();
+    void on_F03_clicked();
+    void on_F02_clicked();
+    void on_F01_clicked();
+    void on_buttonmainmenu_clicked();
+    void on_buttonreturn_clicked();
+
+private:
+    Ui::Seats *ui;
+};
+
+#endif // SEATS_H

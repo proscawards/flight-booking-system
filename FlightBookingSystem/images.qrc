@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>hk.png</file>
+        <file>in.png</file>
+        <file>jp.png</file>
+        <file>kr.png</file>
+        <file>me.png</file>
+        <file>ru.png</file>
+        <file>sg.png</file>
+        <file>uk.png</file>
+        <file>us.png</file>
+        <file>my.png</file>
+        <file>arrow_down.png</file>
+        <file>arrow_up.png</file>
+        <file>eyehide.png</file>
+        <file>eyeview.png</file>
+        <file>iconr.png</file>
+        <file>logo.png</file>
+        <file>MAP.png</file>
+        <file>raining.gif</file>
+        <file>lightning.gif</file>
+    </qresource>
+</RCC>
